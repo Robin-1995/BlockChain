@@ -54,35 +54,35 @@ class BlockChain:
         return out
 
 
-#Test 1 <-- print a list of each block in the chain, length = 10
-chain1 = BlockChain()
-
-for i in range(0,10):
-    chain1.append(i)
-
-print(chain1.to_list())
-print()
-print()
-
-# Test 2 <-- print statement and return None
-chain2 = BlockChain()
-print(chain2.to_list())
-print()
-print()
-
-# Test 3 <-- return a list of 1 block with the data value of 150
-chain3 = BlockChain()
-chain3.append(150)
-print(chain3.to_list())
-print()
-print()
-
-#Test 4 <-- print a list of each block in the chain , length = 30
-chain1 = BlockChain()
-
-for i in range(0,30):
-    chain1.append(i)
-
-print(chain1.to_list())
-print()
-print()
+# #Test 1 <-- print a list of each block in the chain, length = 10
+# chain1 = BlockChain()
+#
+# for i in range(0,10):
+#     chain1.append(i)
+#
+# print(chain1.to_list())
+# print()
+# print()
+#
+# # Test 2 <-- print statement and return None
+# chain2 = BlockChain()
+# print(chain2.to_list())
+# print()
+# print()
+#
+# # Test 3 <-- return a list of 1 block with the data value of 150
+# chain3 = BlockChain()
+# chain3.append(150)
+# print(chain3.to_list())
+# print()
+# print()
+#
+# #Test 4 <-- print a list of each block in the chain , length = 30
+# chain1 = BlockChain()
+#
+# for i in range(0,30):
+#     chain1.append(i)
+#
+# print(chain1.to_list())
+# print()
+# print()
